@@ -1,7 +1,7 @@
 .container {
     margin: auto;
     max-width: 500px;
-    font-family: 'Cambria';
+    font-family: Georgia;
   }
 .heading {
 color: green;
@@ -17,4 +17,11 @@ padding-right: 2rem;
 .nav-link-text {
 color: black;
 text-underline-offset: -20px;
+}
+
+.site-title {
+  font-size: 4rem;
+  color: gray;
+  font-weight: 700;
+  margin: 2rem 0;
 }

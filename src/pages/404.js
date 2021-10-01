@@ -29,13 +29,13 @@ const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
       <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
+      <h1 style={headingStyles}>
+      <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        we couldn’t find what you were looking for.
+        Page not found</h1>
+      <p style={paragraphStyles}>
+        You got lost huh? Teo probably messed something up
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
