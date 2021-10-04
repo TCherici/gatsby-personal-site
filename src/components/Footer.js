@@ -15,19 +15,20 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a href="mailto: tcherici@gmail.com" className="icon fa-envelope-o">
+          <a href="" className="icon fa-envelope-o">
             <span className="label">Email</span>
           </a>
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
+        <li>
+          <a href="https://unsplash.com/photos/b9qMrce84C4">Photo</a> by <a href="https://unsplash.com/@fudojahic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fudo Jahic</a> on <a href="https://unsplash.com/s/photos/pine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
       </ul>
       <par className="copyright">
-          Background by <a href="https://unsplash.com/@staffank?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Staffan Kjellvestad</a> on <a href="https://unsplash.com/s/photos/forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       </par>
     </div>
   </div>
