@@ -6,8 +6,8 @@ import Layout from '../components/layout'
 import CV from '../assets/Teo_Cherici_CV.pdf'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Teo Cherici'
+  const siteDescription = 'Personal Website'
 
   return (
     <Layout>
@@ -20,18 +20,19 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Hi there, I'm Teo 😄
-              <br />
-              Have a look around!
+              Hi there! I'm Teo <span>😄</span>
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            Deep Learning and Machine Learning expert, with focus on Convolutional 
+            Neural Networks for 3D voxel and point-cloud data.
+            During my Mechanical Engineering studies at the Delft University of Technology,
+             through Robotics, I discovered Artificial Intelligence and dived fully into it.
+            <br />
+            AGI and robotics enthousiast.
+            <br />
+            Fluent in Italian <span>🇮🇹</span>, English <span>🇬🇧</span> and Dutch <span>🇳🇱</span>
+
           </p>
           <ul className="actions">
             <li>
@@ -44,13 +45,11 @@ const HomeIndex = () => {
         <section id="contact">
           <h2>Get In Touch</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            I prefer contact through email.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
+              {/* <form method="post" action="#">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -82,10 +81,22 @@ const HomeIndex = () => {
                     <input type="submit" value="Send Message" />
                   </li>
                 </ul>
-              </form>
+              </form> */}
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
+                <li>
+                  <h3 className="icon fa-envelope-o">
+                    <span className="label">Email</span>
+                  </h3>
+                  <a href="#">tcherici@gmail.com</a>
+                </li>
+                <li>
+                  <h3 className="icon fa-mobile">
+                    <span className="label">Phone</span>
+                  </h3>
+                  +31 (0)641883688
+                </li>
                 <li>
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
@@ -95,18 +106,6 @@ const HomeIndex = () => {
                   Leiden, 2311HG
                   <br />
                   Netherlands
-                </li>
-                <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  +31 (0)641883688
-                </li>
-                <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  <a href="#">tcherici@gmail.com</a>
                 </li>
               </ul>
             </div>
