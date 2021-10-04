@@ -20,7 +20,7 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Hi there! I'm Teo <span>😄</span>
+              Hi there! I'm Teo <span role="img" aria-labelledby="smile">😄</span>
             </h2>
           </header>
           <p>
@@ -31,7 +31,10 @@ const HomeIndex = () => {
             <br />
             AGI and robotics enthousiast.
             <br />
-            Fluent in Italian <span>🇮🇹</span>, English <span>🇬🇧</span> and Dutch <span>🇳🇱</span>
+            Fluent in &nbsp;
+            <span role="img" aria-labelledby="it">🇮🇹</span> Italian,
+            &nbsp;<span role="img" aria-labelledby="uk">🇬🇧</span> English 
+            and &nbsp; <span role="img" aria-labelledby="nl">🇳🇱</span> Dutch
 
           </p>
           <ul className="actions">
@@ -86,10 +89,11 @@ const HomeIndex = () => {
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  <a href="#">tcherici@gmail.com</a>
+                  
+                <h3 className="icon fa-envelope-o">
+                  <span className="label">Email</span>
+                </h3>
+                tcherici@gmail.com
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">

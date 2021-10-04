@@ -707,6 +707,7 @@
 					top: 0;
 					width: 1em;
 				}
+				
 			}
 		}
 	}
@@ -956,6 +957,15 @@
 
 			a {
 				color: _palette(accent2, fg-light);
+			}
+			button {
+				color: _palette(accent2, fg-light);
+				background-color: Transparent;
+				background-repeat:no-repeat;
+				border: none;
+				cursor:pointer;
+				overflow: hidden;
+				size: 30px;        
 			}
 		}
 

@@ -14,7 +14,7 @@ const GalleryItem = ({id, source, thumbnail, caption, description, position, tog
         href={source}
         onClick={onClick}
         >
-        <img src={thumbnail} />
+        <img src={thumbnail} alt={caption}/>
         </a>
 
         <h3>{caption}</h3>

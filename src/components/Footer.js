@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const Footer = () => (
   <div id="footer">
     <div className="inner">
@@ -15,9 +17,11 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a href="" className="icon fa-envelope-o">
-            <span className="label">Email</span>
-          </a>
+          <button onClick={() => {
+            copyToClipboard()
+            }} className="icon fa-envelope-o"> 
+            {/* {isCopied ? "Email copied" : ""} */}
+            </button>
         </li>
       </ul>
       <ul className="copyright">
@@ -34,4 +38,11 @@ const Footer = () => (
   </div>
 )
 
+function copyToClipboard() {
+  if (typeof window !== `undefined`)
+    {  /* Copy the text inside the text field */
+      navigator.clipboard.writeText("tcherici@gmail.com");
+    }
+}
+ 
 export default Footer
