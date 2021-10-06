@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/teo_portrait_color_adjusted.png'
+import avatar from '../assets/images/teo_portrait_2.png'
 
 const Header = () => (
   <header id="header">
@@ -11,9 +11,11 @@ const Header = () => (
       </a>
       <h1>
         <strong>Teo Cherici</strong>
-        <br />
+      </h1>
+      <h1>
         Machine Learning Researcher
-        <br />
+      </h1>
+      <h1>
         Deep Learning Engineer
       </h1>
     </div>

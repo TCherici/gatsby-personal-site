@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 import CV from '../assets/Teo_Cherici_CV.pdf'
 
@@ -27,7 +26,7 @@ const HomeIndex = () => {
             Deep Learning and Machine Learning expert, with focus on Convolutional 
             Neural Networks for 3D voxel and point-cloud data.
             During my Mechanical Engineering studies at the Delft University of Technology,
-             through Robotics, I discovered Artificial Intelligence and dived fully into it.
+             through Robotics, I discovered Artificial Intelligence and dived in.
             <br />
             AGI and robotics enthousiast.
             <br />
@@ -105,9 +104,7 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  Hogewoerd 49A
-                  <br />
-                  Leiden, 2311HG
+                  Leiden
                   <br />
                   Netherlands
                 </li>
@@ -115,20 +112,6 @@ const HomeIndex = () => {
             </div>
           </div>
         </section>
-        <section id="photos">
-          <h2>Photos of my cat</h2>
-
-          <Gallery />
-
-          {/* <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
-            </li>
-          </ul> */}
-        </section>
-
         
       </div>
     </Layout>
