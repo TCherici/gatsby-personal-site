@@ -3,7 +3,7 @@ import React from 'react';
 const Education = ({ educations }) => (
 	<section id="education" className="row">
 		<aside className="col-sm-3">
-			<h3>Education</h3>
+			<h3 className='ed-aside'>Education</h3>
 		</aside>
 		<div className="col-sm-9">
 			<div className="row">
@@ -30,6 +30,7 @@ const Education = ({ educations }) => (
         </div>
       ))}
 			</div>
+      <br></br>
 		</div>
 	</section>);
 

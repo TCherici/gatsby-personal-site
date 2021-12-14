@@ -59,7 +59,7 @@ h4 span:first-child {
 	font-weight: bold;
 }
 .container {
-	max-width: 800px;
+	max-width: 750px;
 	padding: 0 30px;
 }
 .col-sm-6 {
@@ -101,10 +101,10 @@ h4 span:first-child {
 	font-weight: bold;
 	margin-bottom: 8px;
 }
-#education .area {
+#education .ed-aside {
 	font-weight: bold;
 }
-#education .area:before {
+#education .ed-aside:before {
 	content: "\f0d7";
 	font: 16px Octicons;
 	margin-right: 6px;
