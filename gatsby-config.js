@@ -20,5 +20,22 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./resume`,
+      }
+    },
+    'gatsby-transformer-yaml',
+    {
+			resolve: 'gatsby-plugin-pdf',
+			options: {
+				paths: ['/cv',],
+        pdfOptions: {
+          scale: 1
+        },
+				outputPath: '/public/exports',
+			},
+		},
   ],
 }
