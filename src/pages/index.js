@@ -28,8 +28,6 @@ const HomeIndex = () => {
             During my Mechanical Engineering studies at the Delft University of Technology,
              through Robotics, I discovered Artificial Intelligence and dived in.
             <br />
-            AGI and robotics enthousiast.
-            <br />
             Fluent in &nbsp;
             <span role="img" aria-labelledby="it">🇮🇹</span> Italian,
             &nbsp;<span role="img" aria-labelledby="uk">🇬🇧</span> English 

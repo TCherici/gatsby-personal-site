@@ -1,0 +1,153 @@
+---
+basics:
+  name: Teo Cherici
+  label: Machine Learning Engineer
+  birthdate: 28-12-1991
+  brithplace: Rome, Italy
+  image: ''
+  nationalities: Italian, Dutch
+  email: tcherici@gmail.com
+  phone: (+31) 6 41883688
+  url: https://teo.ai/
+  summary: Deep Learning and Machine Learning expert, with focus on Convolutional 
+            Neural Networks for 3D voxel and point-cloud data.
+            During my Mechanical Engineering studies at the Delft University of Technology,
+             through Robotics, I discovered Artificial Intelligence and dived in.
+  location:
+    address: Hogewoerd 49A
+    postalCode: 2311HG
+    city: Leiden
+    countryCode: NL
+  profiles:
+  - network: LinkedIn
+    username: Teo Cherici
+    url: https://www.linkedin.com/in/teo-cherici-a6a6509b/
+  - network: GitHub
+    username: TCherici
+    url: 'https://github.com/TCherici'
+  - network: Website
+    username: teo.ai
+    url: 'https://teo.ai/'
+work:
+- name: Promaton
+  location: Amsterdam, NL
+  description: Bringing AI to dental Healthcare
+  position: Machine Learning Researcher/Engineer
+  url: https://promaton.com/
+  startDate: '2017-03-01'
+  endDate: '2022-01-01'
+  summary: Responsible for the design, training and deployment of state-of-the-art
+    Deep Learning models for processing of dental healthcare imaging data.
+    Experienced with (CB)CT and orthopanoramic DICOM imaging, mesh
+    surfaces and point cloud data.
+  highlights:
+  - Designed and trained 3D volumetric and point-cloud Deep Learning
+    models for classification, semantic segmentation, object detection and
+    GANs for data augmentation.
+  - Deployed Deep Learning pipelines in RESTful APIs with Flask, FastAPI.
+  - Lead junior colleagues in design and training of Deep Learning models.
+  - Co-author of 4 patents on applied Deep Learning architectures.
+- name: Accenture
+  location: Amsterdam, NL
+  description: Accenture Emerging Technology Group,
+  position: Applied Deep Learning Internship
+  url: https://accenture.com/
+  startDate: '2017-03-01'
+  endDate: '2022-01-01'
+  summary: Involved in RNN model design and training for genome sequencing,
+    CNNs design for materials data extrapolation and object detection
+    models for satellite data imaging.
+education:
+- institution: Delft University of Technology
+  area: BioMechanical Design
+  studyType: Master of Science
+  startDate: '2015-09-01'
+  endDate: '2018-07-01'
+  specialization: BioRobotics, Artificial Intelligence
+  Final Project: Robotic Auxiliary Tasks for Deep Reinforcement Learning
+- institution: Delft University of Technology
+  area: Mechanical Engineering
+  studyType: Bachelor of Science
+  startDate: '2011-09-01'
+  endDate: '2015-08-01'
+- institution: Liceo Scientifico Isaac Newton
+  area: Diploma di maturita' scientifica
+  studyType: 
+  startDate: '2011-09-01'
+  endDate: '2015-08-01'
+awards:
+- title: ----
+  date: '2014-11-01'
+  awarder: ----
+  summary: There is no spoon.
+publications:
+- name: Video compression for 3d media
+  publisher: Hooli
+  releaseDate: '2014-10-01'
+  url: http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)
+  summary: Innovative middle-out compression algorithm that changes the way we store
+    data.
+skills:
+- name: Deep Learning
+  level: Master
+  keywords:
+  - Tensorflow
+  - Torch
+  - CNNs
+  - RNNs
+- name: Computer Vision
+  level: Master
+  keywords:
+  - 3D imaging
+  - Image morphology
+  - Point Cloud
+  - Mesh and surface data
+- name: Programming
+  level: 
+  keywords:
+  - python
+  - git
+  - TTD
+  - CI/CD
+- name: Cloud
+  level:
+  keywords:
+  - AWS
+  - Docker
+languages:
+- language: English
+  fluency: Fluent
+- language: Dutch
+  fluency: Fluent
+- language: Italian
+  fluency: Native speaker
+- language: French
+  fluency: Elementary
+interests:
+- name: Cooking
+  keywords:
+  - Ferrets
+  - Unicorns
+references:
+- name: ------
+  reference: -------
+projects:
+- name: -----
+  description: -----
+  highlights:
+  - ------
+  keywords:
+  - ----
+  startDate: '2016-08-24'
+  endDate: '2016-08-24'
+  url: missdirection.example.com
+  roles:
+  - Team lead
+  - Designer
+  entity: Smoogle
+  type: application
+# meta:
+#   canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json
+#   version: v1.0.0
+#   lastModified: '2017-12-24T15:53:00'
+
