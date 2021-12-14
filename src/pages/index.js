@@ -34,13 +34,18 @@ const HomeIndex = () => {
             and &nbsp; <span role="img" aria-labelledby="nl">🇳🇱</span> Dutch
 
           </p>
-          <ul className="actions">
-            <li>
-              <a href={CV} className="button">
-                Download CV
+          <div class="row">
+              <div class="column">
+              <a href='/cv' className="button">
+                View CV online
               </a>
-            </li>
-          </ul>
+            </div>
+            <div class="column">
+              <a href={CV} className="button">
+                Download CV as pdf
+              </a>
+            </div>
+          </div>
         </section>
         <section id="contact">
           <h2>Where to find me</h2>
