@@ -1,70 +1,84 @@
 ---
 basics:
-  name: Richard Hendriks
-  label: Programmer
+  name: Teo Cherici
+  label: Machine Learning Engineer
+  birthdate: 28-12-1991
+  brithplace: Rome, Italy
   image: ''
-  email: richard.hendriks@mail.com
-  phone: "(912) 555-4321"
-  url: http://richardhendricks.example.com
-  summary: Richard hails from Tulsa. He has earned degrees from the University of
-    Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper,
-    he worked for Hooli as a part time software developer. While his work focuses
-    on applied information theory, mostly optimizing lossless compression schema of
-    both the length-limited and adaptive variants, his non-work interests range widely,
-    everything from quantum computing to chaos theory. He could tell you about it,
-    but THAT would NOT be a “length-limited” conversation!
+  nationalities: Italian, Dutch
+  email: tcherici@gmail.com
+  phone: (+31) 6 41883688
+  url: https://teo.ai/
+  summary: Deep Learning and Machine Learning expert, with focus on Convolutional 
+            Neural Networks for 3D voxel and point-cloud data.
+            During my Mechanical Engineering studies at the Delft University of Technology,
+             through Robotics, I discovered Artificial Intelligence and dived in.
   location:
-    address: 2712 Broadway St
-    postalCode: CA 94115
-    city: San Francisco
-    countryCode: US
-    region: California
+    address: Hogewoerd 49A
+    postalCode: 2311HG
+    city: Leiden
+    countryCode: NL
   profiles:
-  - network: Twitter
-    username: neutralthoughts
-    url: ''
-  - network: SoundCloud
-    username: dandymusicnl
-    url: https://soundcloud.example.com/dandymusicnl
+  - network: LinkedIn
+    username: Teo Cherici
+    url: https://www.linkedin.com/in/teo-cherici-a6a6509b/
+  - network: GitHub
+    username: TCherici
+    url: 'https://github.com/TCherici'
+  - network: Website
+    username: teo.ai
+    url: 'https://teo.ai/'
 work:
-- name: Pied Piper
-  location: Palo Alto, CA
-  description: Awesome compression company
-  position: CEO/President
-  url: http://piedpiper.example.com
-  startDate: '2013-12-01'
-  endDate: '2014-12-01'
-  summary: Pied Piper is a multi-platform technology based on a proprietary universal
-    compression algorithm that has consistently fielded high Weisman Scores™ that
-    are not merely competitive, but approach the theoretical limit of lossless compression.
+- name: Promaton
+  location: Amsterdam, NL
+  description: Bringing AI to dental Healthcare
+  position: Machine Learning Researcher/Engineer
+  url: https://promaton.com/
+  startDate: '2017-03-01'
+  endDate: '2022-01-01'
+  summary: Responsible for the design, training and deployment of state-of-the-art
+    Deep Learning models for processing of dental healthcare imaging data.
+    Experienced with (CB)CT and orthopanoramic DICOM imaging, mesh
+    surfaces and point cloud data.
   highlights:
-  - Build an algorithm for artist to detect if their music was violating copy right
-    infringement laws
-  - Successfully won Techcrunch Disrupt
-  - Optimized an algorithm that holds the current world record for Weisman Scores
-volunteer:
-- organization: CoderDojo
-  position: Teacher
-  url: http://coderdojo.example.com/
-  startDate: '2012-01-01'
-  endDate: '2013-01-01'
-  summary: Global movement of free coding clubs for young people.
-  highlights:
-  - Awarded 'Teacher of the Month'
+  - Designed and trained 3D volumetric and point-cloud Deep Learning
+    models for classification, semantic segmentation, object detection and
+    GANs for data augmentation.
+  - Deployed Deep Learning pipelines in RESTful APIs with Flask, FastAPI.
+  - Lead junior colleagues in design and training of Deep Learning models.
+  - Co-author of 4 patents on applied Deep Learning architectures.
+- name: Accenture
+  location: Amsterdam, NL
+  description: Accenture Emerging Technology Group,
+  position: Applied Deep Learning Internship
+  url: https://accenture.com/
+  startDate: '2017-03-01'
+  endDate: '2022-01-01'
+  summary: Involved in RNN model design and training for genome sequencing,
+    CNNs design for materials data extrapolation and object detection
+    models for satellite data imaging.
 education:
-- institution: University of Oklahoma
-  area: Information Technology
-  studyType: Bachelor
-  startDate: '2011-06-01'
-  endDate: '2014-01-01'
-  gpa: '4.0'
-  courses:
-  - DB1101 - Basic SQL
-  - CS2011 - Java Introduction
+- institution: Delft University of Technology
+  area: BioMechanical Design
+  studyType: Master of Science
+  startDate: '2015-09-01'
+  endDate: '2018-07-01'
+  specialization: BioRobotics, Artificial Intelligence
+  Final Project: Robotic Auxiliary Tasks for Deep Reinforcement Learning
+- institution: Delft University of Technology
+  area: Mechanical Engineering
+  studyType: Bachelor of Science
+  startDate: '2011-09-01'
+  endDate: '2015-08-01'
+- institution: Liceo Scientifico Isaac Newton
+  area: Diploma di maturita' scientifica
+  studyType: 
+  startDate: '2011-09-01'
+  endDate: '2015-08-01'
 awards:
-- title: Digital Compression Pioneer Award
+- title: ----
   date: '2014-11-01'
-  awarder: Techcrunch
+  awarder: ----
   summary: There is no spoon.
 publications:
 - name: Video compression for 3d media
@@ -74,42 +88,56 @@ publications:
   summary: Innovative middle-out compression algorithm that changes the way we store
     data.
 skills:
-- name: Web Development
+- name: Deep Learning
   level: Master
   keywords:
-  - HTML
-  - CSS
-  - Javascript
-- name: Compression
+  - Tensorflow
+  - Torch
+  - CNNs
+  - RNNs
+- name: Computer Vision
   level: Master
   keywords:
-  - Mpeg
-  - MP4
-  - GIF
+  - 3D imaging
+  - Image morphology
+  - Point Cloud
+  - Mesh and surface data
+- name: Programming
+  level: 
+  keywords:
+  - python
+  - git
+  - TTD
+  - CI/CD
+- name: Cloud
+  level:
+  keywords:
+  - AWS
+  - Docker
 languages:
 - language: English
+  fluency: Fluent
+- language: Dutch
+  fluency: Fluent
+- language: Italian
   fluency: Native speaker
+- language: French
+  fluency: Elementary
 interests:
-- name: Wildlife
+- name: Cooking
   keywords:
   - Ferrets
   - Unicorns
 references:
-- name: Erlich Bachman
-  reference: It is my pleasure to recommend Richard, his performance working as a
-    consultant for Main St. Company proved that he will be a valuable addition to
-    any company.
+- name: ------
+  reference: -------
 projects:
-- name: Miss Direction
-  description: A mapping engine that misguides you
+- name: -----
+  description: -----
   highlights:
-  - Won award at AIHacks 2016
-  - Built by all women team of newbie programmers
-  - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+  - ------
   keywords:
-  - GoogleMaps
-  - Chrome Extension
-  - Javascript
+  - ----
   startDate: '2016-08-24'
   endDate: '2016-08-24'
   url: missdirection.example.com
@@ -118,8 +146,8 @@ projects:
   - Designer
   entity: Smoogle
   type: application
-meta:
-  canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json
-  version: v1.0.0
-  lastModified: '2017-12-24T15:53:00'
+# meta:
+#   canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json
+#   version: v1.0.0
+#   lastModified: '2017-12-24T15:53:00'
 

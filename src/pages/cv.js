@@ -37,36 +37,12 @@ query MyQuery {
         summary
         url
       }
-      volunteer {
-        endDate(formatString: "MMM, YYYY")
-        highlights
-        organization
-        position
-        startDate(formatString: "MMM, YYYY")
-        summary
-        url
-      }
       education {
         area
-        courses
         endDate(formatString: "MMM, YYYY")
-        gpa
         institution
         startDate(formatString: "MMM, YYYY")
         studyType
-      }
-      awards {
-        awarder
-        date(formatString: "MMM, YYYY")
-        summary
-        title
-      }
-      publications {
-        name
-        publisher
-        releaseDate(formatString: "MMM, YYYY")
-        summary
-        url
       }
       skills {
         keywords
@@ -80,10 +56,6 @@ query MyQuery {
       interests {
         keywords
         name
-      }
-      references {
-        name
-        reference
       }
     }
   }

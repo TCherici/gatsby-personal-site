@@ -27,15 +27,5 @@ module.exports = {
       }
     },
     'gatsby-transformer-yaml',
-    {
-			resolve: 'gatsby-plugin-pdf',
-			options: {
-				paths: ['/cv',],
-        pdfOptions: {
-          scale: 1
-        },
-				outputPath: '/public/exports',
-			},
-		},
   ],
 }

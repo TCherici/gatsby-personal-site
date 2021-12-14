@@ -1,16 +1,16 @@
 import React from 'react';
+import avatar from '../../assets/images/teo_portrait_2.png'
 
 const Header = ({ basics }) => (
-  <header id="resume_header">
-    <div className="container">
-      <div className="row">
-        <div className="col-sm-9 col-sm-push-3">
-          <h1>{basics.name}</h1>
-          <h2>{basics.label}</h2>
-        </div>
-      </div>
-    </div>
-  </header>
+  <section id="header_cv" className="row">
+  <aside className="col-sm-3">
+  <img src={avatar} alt="" width="150"/>
+  </aside>
+    <div className="col">
+      <h1>{basics.name}</h1>
+      <h2>{basics.label}</h2>
+  </div>
+</section>
 );
 
 export default Header;
