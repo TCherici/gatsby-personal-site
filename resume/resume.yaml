@@ -107,7 +107,7 @@ skills:
   keywords:
   - python
   - git
-  - TTD
+  - TDD
   - CI/CD
 - name: Cloud
   level:
